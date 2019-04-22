@@ -1,13 +1,5 @@
 """
-Improved version of Hex environment
-Changes:
-    - one reward is given per timestep, only for the current turn
-    - Hexagon object is rendered simply a GUI element, it has no attributes regarding the actual functioning of the game
-    (Hexagon.isClicked is no longer available)
-    - game state is introduced, a numpy array that is always updated on the game state. Replaces Hexagon.is_clicked,
-    also state doesn't have to be generated every time by Hex.get_board()
-    - Hex.check_for_win is removed, winner is checked move by move when adding hexes (in Hex.connect), this is possible
-    because now paths contain booleans as to what edges they are connected to
+Hex Reinforcement Learning Environment 
 """
 
 import pygame
