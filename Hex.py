@@ -209,6 +209,7 @@ class Hex:
 
 
 def play_hex():
+    """ you can play hex on your own or with a friend, or adapt this to play against a trained AI agent """"
     game = Hex()
 
     play = True
